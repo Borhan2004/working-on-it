@@ -1,6 +1,7 @@
-// ignore_for_file: must_be_immutable
+// ignore_for_file: must_be_immutable, prefer_const_constructors_in_immutables
 
 import 'package:flutter/material.dart';
+import 'package:project_application_1/page%20view/Homepage.dart';
 
 void main() {
   runApp(MyApp());
@@ -8,12 +9,9 @@ void main() {
 
 class MyApp extends StatelessWidget {
   MyApp({super.key});
-  String name = 'Borhan';
-  int age = 22;
-  double pi = 3.1416;
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Scaffold());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: Homepage());
   }
 }
