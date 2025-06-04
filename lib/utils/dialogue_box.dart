@@ -32,9 +32,9 @@ class DialogueBox extends StatelessWidget {
             Spacer(),
             Row(
               children: [
-                DialogButton(text: 'Save', onPressed: onSave),
+                DialogButton(text: 'Cancel', onPressed: onCancel),
                 Spacer(),
-                DialogButton(text: 'Delete', onPressed: onCancel),
+                DialogButton(text: 'Save', onPressed: onSave),
               ],
             ),
           ],
