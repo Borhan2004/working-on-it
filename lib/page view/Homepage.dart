@@ -77,7 +77,7 @@ class _HomepageState extends State<Homepage> {
       backgroundColor: Colors.blue[50],
       appBar: AppBar(
         backgroundColor: Colors.lightBlue[400],
-        title: Text('TO DO', style: TextStyle(color: Colors.white)),
+        title: Text('Routine Of Shams', style: TextStyle(color: Colors.white)),
         elevation: 0,
         centerTitle: true,
       ),
